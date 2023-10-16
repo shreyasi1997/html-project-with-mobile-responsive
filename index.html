@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+</head>
+<title>Final Project</title>
+</head>
+
+<body onload="myFunction()">
+  <div id="preloader">
+
+  </div>
+  <section class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="img/logo.png" class="navbar-brand" alt="Logo">
+        </div>
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon -header">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="uper-letter">
+                <p>Mon - Sat: 9:00am - 5:00pm
+                  Sunday Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon -header">
+                <div class="icon">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="uper-letter">
+                <p>452 Marshal Street
+                  Newyork, USA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon -header">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="uper-letter">
+                <p>+01 2345 6789
+                  info@carhut.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About-Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Shop
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Contact Us
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><span style="color: white;">HOME</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="color: white;">ABOUT US</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="color: white;">SERVICES</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="color: white;">PORTFOLIO</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="color: white;">SHOP</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="color: white;">NEWS</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span style="color: white;">CONTACT US</span></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-light" type="submit">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+
+
+
+
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav> -->
+
+  <section class="slider">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="slider-content">
+            <h2>Welcome to Carhut</h2>
+            <p>Discover the best car deals and services.</p>
+
+            <a href="#" class="btn btn-primary">Purchase Now</a>
+            <a href="#" class="btn btn-primary know">Want to know more</a>
+
+          </div>
+          <img src="img/1.jpg" class="d-block w-100" alt="one">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slider-content">
+            <h2>Welcome to Carhut</h2>
+            <p>Discover the best car deals and services.</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a>
+            <a href="#" class="btn btn-primary">Want to know more</a>
+          </div>
+          <img src="img/2.jpg" class="d-block w-100" alt="two">
+
+        </div>
+        <div class="carousel-item">
+          <div class="slider-content">
+            <h2>Welcome to Carhut</h2>
+            <p>Discover the best car deals and services.</p>
+            <a href="#" class="btn btn-primary">Purchase Now</a>
+            <a href="#" class="btn btn-primary">Want to know more</a>
+          </div>
+          <img src="img/3.jpg" class="d-block w-100" alt="three">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+
+  <section class="service py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="photo-service">
+            <img src="img/wc-1.jpg" alt="service-1">
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="service-letter-part ">
+            <h4><span style="color:black">CARHUT</span> CAR<br>
+              REPAIR SERVICE</h4>
+          </div>
+          <div class="service-letter-part-1">
+            <p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci
+              lisis. Lorem ipsum dolor sit ametion consectetur elit. Vesti bulum nec odio ipsum.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right " aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p> ENGINE RESTORE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p>RESTART & REPAIR</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p>CAR LIQUIDS CHANGE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p>BATTERY RESTORE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p> YEARLY INSPECTION</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p> BOOK ONLINE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p> ELECTRIC CAR LOADING</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon-service">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="para">
+                    <p>SPEED AND ENGINE TESTING</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="last-part">
+
+            <div class="contend-service-third">
+              <p>CAR MAINTENANCE</p>
+            </div>
+            <div class="contend-service-third-1">
+              <p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci
+                lisis. Lorem ipsum dolor sit ametion consectetur.</p>
+            </div>
+            <div class="contend-service-third-pic">
+              <img class="img-fluid" src="img/wc-2.png" alt="service-two">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="about-us-para">
+            <p>About Us</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="first-about">
+            <h4>Lorem ipsum dolor sit amet, consectetur outer this has adipisicing elit. Necessitatibus, ex.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur temporibus accusantium perferendis
+              possimus, iusto sint provident labore necessitatibus? Voluptatem aperiam eum tenetur adipisci iusto
+              distinctio, earum quos iure animi harum eaque! Cupiditate, magnam illo possimus voluptates veritatis.
+              maxime, labore expedita ducimus ea animi, totam quod doloribus.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <i class="fa fa-shower" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="second-about">
+                <p> CAR WASHING</p>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="icon">
+                <i class="fa fa-wrench" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="second-about">
+                <p> ENGINE UPGRADES</p>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="icon">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="second-about">
+                <p> SECURITY INSPECTIONS</p>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="col-lg-4">
+              <div class="icon">
+                <i class="fa fa-shield" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="second-about">
+                <p> ENGINE CHANGE</p>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="third-about">
+            <button class="btn-about-first">Some Lorem ipsume title will be here?</button>
+          </div>
+          <div class="next-about-btn">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ipsa ducimus.</p>
+          </div>
+          <div class="last-abut-btn">
+            <p>Some Lorem ipsume title will be here?</p>
+          </div>
+          <div class="last-abut-btn">
+            <p>Some Lorem ipsume title will be here?</p>
+          </div>
+          <div class="last-abut-btn">
+            <p>Some Lorem ipsume title will be here?</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section class="next-about-us">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="main-about">
+                <div class="icon-about">
+                  <i class="fa fa-codiepie" aria-hidden="true"></i>
+                </div>
+                <div class="main-about py-3">
+                  <h4>BREAK CHECKUP</h4>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="main-about">
+                <div class="icon-about">
+                  <i class="fa fa-taxi" aria-hidden="true"></i>
+                </div>
+                <div class="main-about py-3">
+                  <h4>INSPECTIONS SERVICE</h4>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="main-about py-3">
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </div>
+                <div class="main-about">
+                  <h4>ENGINE REPAIR</h4>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="main-about py-3">
+
+                  <i class="fa fa-check-circle" aria-hidden="true"></i>
+                </div>
+                <div class="main-about">
+                  <h4>CAR CLEANING</h4>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="main-about">
+                  <div class="icon-about">
+                    <i class="fa fa-battery-full" aria-hidden="true"></i>
+                  </div>
+                  <div class="main-about py-3">
+                    <h4>BATTERY RESTORE</h4>
+                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="main-about">
+                  <div class="icon-about">
+                    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="main-about py-3">
+                    <h4>ENGINE UPGRADES</h4>
+                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-us-side">
+            <div class="col-lg-12">
+              <div class="total-headeing">
+                <h1>OUR SERVICES</h1>
+
+                <p>Tilde plaid lumbersexual Helvetica kitsch trust fund Carles pop-up kale chips keytar, keffiyeh
+                  post-ironic. Tote bag street art farm-to-table readymade, migas PBRB Marfa chambray organic.</p>
+                <button class="d-flex" type="submit" class="btn bg-white p-3 next-but">Know More
+                  <span>-></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="team-head py-3">
+            <p>Our team</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="team-photo">
+            <img src="img/team-image-1.jpg" alt="one-team">
+
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="team-photo">
+            <img src="img/team-image-2.jpg" alt="one-team">
+
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="team-photo">
+            <img src="img/team-image-3.jpg" alt="one-team">
+
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+  <section class="next-team py-4">
+    <div class="container">
+      <div class="services">
+        <h3>Number One <span>Engine Specialist</span></h3>
+        <button class="theme-btn btn-style-two">Get Your Service</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="progress1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="process1-head py-3">
+            <p>Our Process</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="progress1-box">
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            <span>1</span>
+            <p>Book Online</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="progress1-box">
+            <i class="fa fa-bus" aria-hidden="true"></i>
+            <span>2</span>
+            <p>Enter Vehicle</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="progress1-box">
+            <i class="fa fa-stethoscope" aria-hidden="true"></i>
+            <span>3</span>
+            <p>Repair & Test</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="progress1-box">
+            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+            <span>4</span>
+            <p>Pay at Shop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="free-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="advisor-pic">
+            <img src="img/advisor-image-1.jpg" alt="advisor">
+          </div>
+        </div>
+        <div class="col-lg-8 py-3">
+          <form>
+            <div class="form-line">
+              <div class="form-heading">
+                <h2>Get a free call</h2>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword5" class="form-label">Enter Your Name</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <div id="passwordHelpBlock" class="form-text">
+
+                </div>
+                <label for="inputPassword5" class="form-label">Enter Your email</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <div id="passwordHelpBlock" class="form-text">
+
+                </div>
+
+                <label for="disabledSelect" class="form-label"></label>
+                <select id="disabledSelect" class="form-select">
+                  <option>Enter Your Service</option>
+                  <option>Car Services</option>
+                  <option>Bike Services</option>
+                  <option>Bus Services</option>
+                </select>
+              </div>
+              <label for="inputPassword5" class="form-label">Enter servicing date</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+              <div id="passwordHelpBlock" class="form-text">
+              </div>
+              <button class="btn-style-one form-butt">Get a free call
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="logo-slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="slider">
+            <div class="logo-container">
+              <img src="img/logo-6.png">
+              <img src="img/logo-7.png">
+              <img src="img/logo-9.png">
+              <img src="img/logo-8.png">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="latest-news">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="team-head py-3">
+            <p>Our news</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem; width: 100%;
+          height: auto;
+          object-fit: cover;">
+            <div class="letest-nesw-photo">
+              <img src="img/blog-image-1.jpg" class="card-img-top" alt="news-one">
+              <div class="calendar-overlay">
+                <span class="fa fa-calendar" aria-hidden="true"></span>
+                <span class="date">25 dec</span>
+
+              </div>
+              <div class="coment-overlay">
+                <span class="fa fa-comment" aria-hidden="true"></span>
+                <span class="date">7-chat</span>
+              </div>
+              <div class="love-overlay">
+                <span class="fa fa-heart" aria-hidden="true"></span>
+                <span class="date">40love</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="lettest-news-para">
+                <h5 class="card-title">CUSTOMER VALUE CHAIN</h5>
+                <p class="card-text">Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                  Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+                  proposition..</p>
+              </div>
+              <a href="#" class="btn purchase">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem; width: 100%;
+          height: auto;
+          object-fit: cover;">
+            <div class="letest-nesw-photo">
+              <img src="img/blog-image-2.jpg" class="card-img-top" alt="news-one">
+              <div class="calendar-overlay">
+                <span class="fa fa-calendar" aria-hidden="true"></span>
+                <span class="date">23 dec</span>
+              </div>
+              <div class="coment-overlay">
+                <span class="fa fa-comment" aria-hidden="true"></span>
+                <span class="date">6-chat</span>
+              </div>
+              <div class="love-overlay">
+                <span class="fa fa-heart" aria-hidden="true"></span>
+                <span class="date">42love</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="lettest-news-para">
+                <h5 class="card-title">CUSTOMER VALUE CHAIN</h5>
+                <p class="card-text">Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                  Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+                  proposition..</p>
+              </div>
+              <a href="#" class="btn purchase">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem; width: 100%;
+          height: auto;
+          object-fit: cover;">
+            <div class="letest-nesw-photo">
+              <img src="img/blog-image-16.jpg" class="card-img-top" alt="news-one">
+              <div class="calendar-overlay">
+                <span class="fa fa-calendar" aria-hidden="true"></span>
+                <span class="date">28 dec</span>
+              </div>
+              <div class="coment-overlay">
+                <span class="fa fa-comment" aria-hidden="true"></span>
+                <span class="date">7-chat</span>
+              </div>
+              <div class="love-overlay">
+                <span class="fa fa-heart" aria-hidden="true"></span>
+                <span class="date">40love</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="lettest-news-para">
+                <h5 class="card-title">CUSTOMER VALUE CHAIN</h5>
+                <p class="card-text">Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                  Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+                  proposition..</p>
+              </div>
+              <a href="#" class="btn purchase">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-logo">
+            <img src="img/logo-three.png" alt="footer-logo">
+          </div>
+          <div class="footer-first-part">
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+              proposition.</p>
+          </div>
+          <div class="row">
+            <div col-lg-3>
+              <div class="footer-info">
+                <p> info@beirutfinance.com</p>
+                <p> 452 marshal street, Newyork, USA</p>
+                <p> +01 2345 6789</p>
+              </div>
+            </div>
+            <div col-lg-3>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="header-footer">
+            <p>SERVICES</p>
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="icon">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="footer-letter">
+                  <p>Break check-up</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="icon">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="footer-letter">
+                  <p>Inspection-service</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="icon">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="footer-letter">
+                  <p>Engine Repaire</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="icon">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="footer-letter">
+                  <p>Car-Clening</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="header-footer">
+            <p>SUBSCRIBE</p>
+          </div>
+          <div class="footer-form">
+            <input type="email" name="email " placeholder="Enter your email">
+            <button type="submit" class="theme-btn"></button>
+          </div>
+          <div class="next-form-footer">
+            <p>Get latest news and updates</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="facebook-icon">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="facebook-para">
+                    <p>facebook</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="facebook-icon">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="facebook-para">
+                    <p>Twitter</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="facebook-icon">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="facebook-para">
+                    <p>WhatsApp</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="facebook-icon">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="facebook-para">
+                    <p>LinkDln</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 py-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="facebook-icon">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="facebook-para">
+                    <p>Skype</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-6 py-3">
+              <div class="row">
+                <div class="col-lg-4 ">
+                  <div class="facebook-icon">
+
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="facebook-para">
+                    <p>Google</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3">
+          <div class="header-footer">
+            <p>RECENT POSTS</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 py-3">
+              <div class="recent-photo">
+                <img src="img/post-thumb-1.jpg" alt="post-one">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="post-letter">
+                <p>News title with image</p>
+              </div>
+              <div class="date">
+                <span class="fa fa-calendar-check-o" aria-hidden="true"> 22th june</span>
+              </div>
+            </div>
+            <div class="col-lg-4 py-3">
+              <div class="recent-photo">
+                <img src="img/post-thumb-2.jpg" alt="post-one">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="post-letter">
+                <p>News title with image</p>
+              </div>
+              <div class="date">
+                <span class="fa fa-calendar-check-o" aria-hidden="true"> 22th june</span>
+              </div>
+            </div>
+            <div class="col-lg-4 py-3">
+              <div class="recent-photo">
+                <img src="img/post-thumb-3.jpg" alt="post-one">
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="post-letter">
+                <p>News title with image</p>
+              </div>
+              <div class="date">
+                <span class="fa fa-calendar-check-o" aria-hidden="true"> 22th june</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="last-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © All Rights Reserved ShreyasiChatterjee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script> -->
+
+  <script>
+    var loader = document.getElementById("preloader");
+    function myFunction() {
+      loader.style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
